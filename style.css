@@ -27,15 +27,13 @@ button {
 }
 
 @media (max-width: 768px) {
-
   .add-block {
     text-align: center;
   }
-
 }
 .container {
   display: block;
-  width:500px;
+  width: 500px;
   margin: 0 auto 0;
 }
 .task {
@@ -44,7 +42,7 @@ button {
   flex-grow: 1;
 }
 .task-row-wrapper {
-  display:flex;
+  display: flex;
 }
 
 .button {
