@@ -2,9 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
   <title>Todo App</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
   <link rel="stylesheet" href="style.css">
@@ -13,8 +11,14 @@
 <body class="page">
   <div class="todo">
     <aside class="info todo__info">
-      <img class="info__image" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
-      <a class="info__link" href="https://goal-life.com/page/method/matrix-eisenhower" target="_blank">
+      <img 
+          class="info__image" 
+          src="./eisenhower-matrix.jpg" 
+          alt="The Eisenhower Matrix">
+      <a 
+          class="info__link" 
+          href="https://goal-life.com/page/method/matrix-eisenhower" 
+          target="_blank">
         Want more details?
       </a>
     </aside>
@@ -25,7 +29,9 @@
           <span class="todo__focus-element">Add Item</span>
         </h3>
         <div class="todo__row">
-          <input class="todo__form-control todo__form-control_new" type="text">
+          <input 
+              class="todo__form-control todo__form-control_new" 
+              type="text">
           <button class="button">Add</button>
         </div>
       </section>
@@ -35,7 +41,9 @@
           <li class="todo__input-group-item">
             <input class="todo__checkbox" type="checkbox">
             <span class="todo__label">Pay Bills</span>
-            <input class="todo__form-control todo__form-control_saved" type="text">
+            <input 
+                class="todo__form-control todo__form-control_saved" 
+                type="text">
             <button class="button button_edit">Edit</button>
             <button class="button button_delete">
               <img class="button_delete__image" src="./remove.svg" alt="">
@@ -44,7 +52,10 @@
           <li class="todo__input-group-item edit-mode">
             <input class="todo__checkbox" type="checkbox">
             <span class="todo__label">Go Shopping</span>
-            <input class="todo__form-control todo__form-control_saved" type="text" value="Go Shopping">
+            <input 
+                class="todo__form-control todo__form-control_saved" 
+                type="text" 
+                value="go shopping">
             <button class="button button_edit">Save</button>
             <button class="button button_delete">
               <img class="button_delete__image" src="./remove.svg" alt="">
@@ -58,7 +69,9 @@
           <li class="todo__input-group-item">
             <input class="todo__checkbox" type="checkbox" checked>
             <span class="todo__label">See the Doctor</span>
-            <input class="todo__form-control todo__form-control_saved" type="text">
+            <input 
+                class="todo__form-control todo__form-control_saved" 
+                type="text">
             <button class="button button_edit">Edit</button>
             <button class="button button_delete">
               <img class="button_delete__image" src="./remove.svg" alt="">
